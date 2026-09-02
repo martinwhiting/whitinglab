@@ -1,3 +1,3 @@
 # The Lizard Lab
 
-Website for the Lizard Lab at Macquarie University.
+Static website for the Lizard Lab at Macquarie University. The site is deployed to GitHub Pages from the `main` branch.
