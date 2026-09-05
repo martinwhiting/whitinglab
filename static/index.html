@@ -3,51 +3,76 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="The Lizard Lab at Macquarie University studies animal behaviour, ecology and evolution.">
+  <meta name="description" content="The Lizard Lab at Macquarie University studies animal communication, cognition and social evolution.">
   <title>The Lizard Lab | Macquarie University</title>
-  <link rel="icon" href="./images/imperator-copy.jpg">
+  <link rel="icon" href="./images/lizard-lab-logo.png">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 <header class="site-header">
-  <div class="shell nav">
-    <a class="brand" href="#top" aria-label="The Lizard Lab home"><span class="mark">L</span><span><b>The Lizard Lab</b><small>Behaviour · Ecology · Evolution</small></span></a>
-    <nav aria-label="Main navigation"><a href="#research">Research</a><a href="#people">People</a><a href="#publications">Publications</a><a href="#news">News</a><a href="#contact">Contact</a></nav>
+  <div class="shell identity-row">
+    <a class="lab-brand" href="#top" aria-label="The Lizard Lab home">
+      <img src="./images/lizard-lab-logo.png" alt="">
+      <span><strong>The Lizard Lab</strong><small>Behaviour · Ecology · Evolution</small></span>
+    </a>
+    <a class="mq-brand" href="https://www.mq.edu.au/" aria-label="Macquarie University website">
+      <img src="./images/macquarie-university-logo.png" alt="Macquarie University, Sydney Australia">
+    </a>
+  </div>
+  <div class="nav-row">
+    <nav class="shell" aria-label="Main navigation">
+      <a href="#research">Research</a><a href="#people">People</a><a href="#publications">Publications</a><a href="#news">News</a><a href="#contact">Contact</a>
+    </nav>
   </div>
 </header>
 <main id="top">
-  <section class="hero shell">
-    <div><p class="eyebrow">Macquarie University · Sydney, Australia</p><h1>The Lizard Lab</h1><p class="lead">We investigate the behaviour, ecology and evolution of lizards—from colourful signals and flexible minds to the origins of family living.</p><div class="actions"><a class="button primary" href="#research">Explore our research →</a><a class="button quiet" href="#people">Meet the lab</a></div></div>
-    <figure><img src="./images/imperator-copy.jpg" alt="Illustration of a colourful flat lizard"><figcaption>Illustration: Erin Walsh</figcaption></figure>
+  <section class="hero">
+    <img class="hero-image" src="./images/field_montage_karidan2-2048x1140.jpg" alt="Lizard Lab field research in arid environments">
+    <div class="hero-shade"></div>
+    <div class="shell hero-content">
+      <p class="eyebrow hero-eyebrow">Behaviour · Ecology · Evolution</p>
+      <h1>The Lizard Lab</h1>
+      <p class="lead">We investigate animal behaviour and evolution, with a particular focus on the colourful signals, flexible minds and social lives of lizards.</p>
+      <div class="actions"><a class="button primary" href="#research">Explore our research →</a><a class="button light" href="#people">Meet the lab</a></div>
+    </div>
   </section>
-  <section id="research" class="dark section">
-    <div class="shell"><p class="eyebrow">What we study</p><h2>Behaviour in an evolutionary world</h2><p class="section-lead">We combine fieldwork, experiments and comparative approaches, working mainly with lizards and occasionally with frogs, birds and other vertebrates.</p>
-      <div class="cards three">
-        <article><span>01</span><h3>Animal communication</h3><p>How visual, chemical and dynamic signals evolve, what information they carry, and how receivers use them.</p></article>
-        <article><span>02</span><h3>Cognition</h3><p>How lizards learn, solve problems and respond flexibly to social and environmental challenges.</p></article>
-        <article><span>03</span><h3>Social evolution</h3><p>How family living, cooperation, social complexity and parental care arise in vertebrates.</p></article>
+
+  <section class="section shell welcome">
+    <div><p class="eyebrow">Welcome</p><h2>Understanding behaviour in an evolutionary world</h2></div>
+    <div class="welcome-copy"><p>The Lizard Lab is a behavioural ecology research group based at Macquarie University in Sydney, Australia. We combine fieldwork, behavioural experiments and comparative approaches to understand why animals look and behave the way they do.</p><p>Our research takes us from Australia to Africa and Asia, working mainly with lizards and occasionally with frogs, birds and other vertebrates.</p></div>
+  </section>
+
+  <section id="research" class="section themes-section">
+    <div class="shell"><p class="eyebrow">What we study</p><h2>Three connected research themes</h2>
+      <div class="theme-grid">
+        <article><span class="theme-number">01</span><h3>Animal communication</h3><p>We study how visual, chemical and behavioural signals evolve, what information they carry, and how animals respond to them.</p><a href="#research-detail">Learn more →</a></article>
+        <article><span class="theme-number">02</span><h3>Cognition</h3><p>We investigate how lizards learn, solve problems and adjust their behaviour when social and environmental conditions change.</p><a href="#research-detail">Learn more →</a></article>
+        <article><span class="theme-number">03</span><h3>Social evolution</h3><p>We examine the evolution of family living, cooperation, social complexity and parental care in lizards and other vertebrates.</p><a href="#research-detail">Learn more →</a></article>
       </div>
     </div>
   </section>
-  <section class="section shell split">
-    <img class="feature" src="./images/field_montage_karidan2-2048x1140.jpg" alt="Lizard Lab researchers conducting fieldwork">
-    <div><p class="eyebrow">From field to lab</p><h2>Questions shaped by natural behaviour</h2><p>Our work ranges from long-term studies in Australia, Africa and Asia to controlled behavioural experiments in large, semi-natural enclosures and cognition facilities.</p></div>
+
+  <section id="research-detail" class="section shell field-section">
+    <div class="field-copy"><p class="eyebrow">From field to lab</p><h2>Research grounded in natural behaviour</h2><p>We study animals in the environments where their behaviour evolved, then bring those observations into carefully designed experiments in the field and laboratory.</p></div>
+    <figure><img src="./images/imperator-copy.jpg" alt="Colourful flat lizard"><figcaption>Illustration: Erin Walsh</figcaption></figure>
   </section>
-  <section class="soft section">
-    <div class="shell split reverse"><div><p class="eyebrow">Research themes</p><h2>Signals, minds and social lives</h2><p>We study sexual selection and complex displays, learning and brain evolution, family living and cooperation, and behavioural responses to changing environments.</p></div><img class="feature" src="./images/Phrynocephalus.jpg" alt="Toad-headed agamas in desert habitat"></div>
-  </section>
-  <section id="people" class="section shell">
-    <p class="eyebrow">People</p><h2>A collaborative lab community</h2><img class="wide" src="./images/IMG_1812-scaled.jpg" alt="Members of the Lizard Lab">
-    <div class="people"><article><h3>Martin Whiting</h3><p>Professor of Animal Behaviour and behavioural ecologist. Martin leads research on animal communication, cognition, social evolution and behavioural diversity in lizards.</p><a class="text-link" href="https://researchers.mq.edu.au/en/persons/martin-whiting">Macquarie University profile →</a></article><article><h3>Research team</h3><ul><li>Ben Ashton</li><li>Ko-Huan Lee</li><li>Victoria Russell</li><li>Yorick Lambreghts</li><li>Maddi Holmes</li><li>Cooper Van Der Wal</li></ul></article></div>
-  </section>
-  <section id="publications" class="dark section">
-    <div class="shell"><p class="eyebrow">Publications</p><h2>Research outputs</h2><p class="section-lead">Current publication lists, downloadable papers and citation metrics are maintained through these profiles.</p>
-      <div class="links"><a href="https://scholar.google.com.au/citations?user=viy_8MgAAAAJ&hl=en&oi=ao"><b>Google Scholar</b><small>Publications and citation metrics ↗</small></a><a href="https://orcid.org/0000-0002-4662-0227"><b>ORCID</b><small>0000-0002-4662-0227 ↗</small></a><a href="https://researchers.mq.edu.au/en/persons/martin-whiting"><b>Macquarie University</b><small>Institutional research profile ↗</small></a></div>
+
+  <section id="people" class="section soft">
+    <div class="shell"><p class="eyebrow">People</p><h2>A collaborative lab community</h2><img class="wide" src="./images/IMG_1812-scaled.jpg" alt="Members of the Lizard Lab">
+      <div class="people"><article><h3>Martin Whiting</h3><p>Professor of Animal Behaviour and behavioural ecologist. Martin leads research on animal communication, cognition, social evolution and behavioural diversity in lizards.</p><a class="text-link" href="https://researchers.mq.edu.au/en/persons/martin-whiting">Macquarie University profile →</a></article><article><h3>Research team</h3><ul><li>Ben Ashton</li><li>Ko-Huan Lee</li><li>Victoria Russell</li><li>Yorick Lambreghts</li><li>Maddi Holmes</li><li>Cooper Van Der Wal</li></ul></article></div>
     </div>
   </section>
-  <section id="news" class="section shell"><p class="eyebrow">Lab news</p><h2>Stories from the archive</h2><div class="cards news"><article><time>21 July 2023</time><h3>Tug of war between survival and reproductive fitness</h3><p>How Jackson’s chameleons become brighter when predators are absent.</p></article><article><time>16 July 2021</time><h3>Social lizards know what is more—but not what is bigger</h3><p>Research on quantity discrimination and behavioural flexibility in lizards.</p></article><article><time>28 October 2020</time><h3>How will global warming affect reproductive mode?</h3><p>What an extraordinary lizard tells us about egg-laying and live-bearing species.</p></article><article><time>1 October 2020</time><h3>Are lizards capable of inhibitory control?</h3><p>Testing whether lizards can suppress an immediate response to solve a problem.</p></article></div></section>
-  <section id="contact" class="soft section"><div class="shell"><p class="eyebrow">Contact</p><h2>Get in touch</h2><div class="contact"><a href="mailto:martin.whiting@mq.edu.au"><small>Email</small><b>martin.whiting@mq.edu.au</b></a><div><small>Mailing address</small><b>School of Natural Sciences<br>Macquarie University<br>NSW 2109 · Australia</b></div><div><small>Physical location</small><b>205B Culloden Road<br>Bio-research Park<br>Marsfield NSW 2122</b></div></div></div></section>
+
+  <section id="publications" class="section publication-section">
+    <div class="shell"><p class="eyebrow pale">Publications</p><h2>Research outputs</h2><p class="section-lead">Current publication lists, downloadable papers and citation metrics are maintained through these profiles.</p>
+      <div class="profile-links"><a href="https://scholar.google.com.au/citations?user=viy_8MgAAAAJ&hl=en&oi=ao"><b>Google Scholar</b><small>Publications and citation metrics ↗</small></a><a href="https://orcid.org/0000-0002-4662-0227"><b>ORCID</b><small>0000-0002-4662-0227 ↗</small></a><a href="https://researchers.mq.edu.au/en/persons/martin-whiting"><b>Macquarie University</b><small>Institutional research profile ↗</small></a></div>
+    </div>
+  </section>
+
+  <section id="news" class="section shell"><p class="eyebrow">Lab news</p><h2>Stories from the archive</h2><div class="news-grid"><article><time>21 July 2023</time><h3>Tug of war between survival and reproductive fitness</h3><p>How Jackson’s chameleons become brighter when predators are absent.</p></article><article><time>16 July 2021</time><h3>Social lizards know what is more—but not what is bigger</h3><p>Research on quantity discrimination and behavioural flexibility in lizards.</p></article></div></section>
+
+  <section id="contact" class="section soft"><div class="shell"><p class="eyebrow">Contact</p><h2>Get in touch</h2><div class="contact-grid"><a href="mailto:martin.whiting@mq.edu.au"><small>Email</small><b>martin.whiting@mq.edu.au</b></a><div><small>Mailing address</small><b>School of Natural Sciences<br>Macquarie University<br>NSW 2109 · Australia</b></div><div><small>Physical location</small><b>205B Culloden Road<br>Bio-research Park<br>Marsfield NSW 2122</b></div></div></div></section>
 </main>
-<footer><div class="shell footer"><div><b>The Lizard Lab</b><p>School of Natural Sciences, Macquarie University</p></div><p>We acknowledge the Wallumattagal clan of the Dharug Nation, the Traditional Custodians of the land on which Macquarie University is situated, and pay our respects to Elders past and present.</p></div></footer>
+<footer><div class="shell footer-grid"><div class="footer-identity"><img src="./images/lizard-lab-logo.png" alt=""><div><strong>The Lizard Lab</strong><p>School of Natural Sciences<br>Macquarie University</p></div></div><p>We acknowledge the Wallumattagal clan of the Dharug Nation, the Traditional Custodians of the land on which Macquarie University is situated, and pay our respects to Elders past and present.</p></div></footer>
 </body>
 </html>
