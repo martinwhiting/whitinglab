@@ -1,5 +1,5 @@
 .hero {
-  background: #fff;
+  background: linear-gradient(180deg, #fbf3df 0%, #fffaf0 38%, #fff 68%);
   padding-top: 3.25rem;
 }
 
@@ -10,14 +10,14 @@
 
 .hero-welcome {
   margin: 0 0 .55rem;
-  color: #111;
+  color: #334e68;
   font-size: clamp(1.3rem, 2vw, 1.5rem);
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .hero .lead {
   max-width: 900px;
-  color: #111;
+  color: #334e68;
 }
 
 .hero-art {
