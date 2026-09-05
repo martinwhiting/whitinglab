@@ -10,9 +10,9 @@
 
 .hero-welcome {
   margin: 0 0 .55rem;
-  color: #334e68;
+  color: var(--navy);
   font-size: clamp(1.3rem, 2vw, 1.5rem);
-  font-weight: 400 !important;
+  font-weight: 700 !important;
 }
 
 .hero .lead {
