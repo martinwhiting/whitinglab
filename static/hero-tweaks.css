@@ -5,3 +5,15 @@
 .hero h1 {
   font-size: clamp(2.2rem, 4vw, 3.4rem);
 }
+
+.hero-welcome {
+  margin: 0 0 .55rem;
+  color: #111;
+  font-size: 1.22rem;
+  font-weight: 700;
+}
+
+.hero .lead {
+  max-width: 900px;
+  color: #111;
+}
