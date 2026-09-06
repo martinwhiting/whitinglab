@@ -1,4 +1,15 @@
 (() => {
+  const peopleLink = document.querySelector('.nav-row nav a[href="#people"]');
+  if (peopleLink && !document.querySelector('.nav-row nav a[href="./facilities/"]')) {
+    const facilitiesLink = document.createElement('a');
+    facilitiesLink.href = './facilities/';
+    facilitiesLink.textContent = 'Facilities';
+    peopleLink.after(facilitiesLink);
+  }
+
+  const wordCloud = document.querySelector('.hero-wordcloud img');
+  if (wordCloud) wordCloud.src = './images/lizard-lab-word-cloud-dark-red.png';
+
   const slider = document.querySelector('[data-animal-slider]');
   if (!slider) return;
   const slides = [...slider.querySelectorAll('[data-animal-slide]')];
