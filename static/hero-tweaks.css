@@ -3,6 +3,13 @@
   padding-top: 3.25rem;
 }
 
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, .88fr) minmax(420px, 1.12fr);
+  gap: clamp(2rem, 5vw, 5rem);
+  align-items: center;
+}
+
 .hero h1 {
   color: var(--navy);
   font-size: clamp(2.2rem, 4vw, 3.4rem);
@@ -16,10 +23,35 @@
 }
 
 .hero .lead {
-  max-width: 900px;
+  max-width: 610px;
   color: #334e68;
 }
 
+.hero-wordcloud {
+  margin: -1.6rem 0 0;
+}
+
+.hero-wordcloud img {
+  width: 100%;
+  height: auto;
+}
+
 .hero-art {
-  margin-top: 1.25rem;
+  margin-top: -1.5rem;
+}
+
+@media (max-width: 850px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .hero-wordcloud {
+    width: min(680px, 100%);
+    margin: 0 auto;
+  }
+
+  .hero-art {
+    margin-top: -.5rem;
+  }
 }
