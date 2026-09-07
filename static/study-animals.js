@@ -1,12 +1,4 @@
 (() => {
-  const peopleLink = document.querySelector('.nav-row nav a[href="#people"]');
-  if (peopleLink && !document.querySelector('.nav-row nav a[href="./facilities/"]')) {
-    const facilitiesLink = document.createElement('a');
-    facilitiesLink.href = './facilities/';
-    facilitiesLink.textContent = 'Facilities';
-    peopleLink.after(facilitiesLink);
-  }
-
   const wordCloud = document.querySelector('.hero-wordcloud img');
   if (wordCloud) wordCloud.src = './images/lizard-lab-word-cloud-dark-red.png';
 
