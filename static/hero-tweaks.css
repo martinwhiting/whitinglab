@@ -1,6 +1,16 @@
 .hero {
-  background: #fff;
+  background: linear-gradient(
+    180deg,
+    #fffdf7 0%,
+    #fff8e8 52%,
+    #f8f9f4 78%,
+    #f3f8fb 100%
+  );
   padding-top: 3.25rem;
+}
+
+.themes-section {
+  background: #f3f8fb;
 }
 
 .hero-grid {
