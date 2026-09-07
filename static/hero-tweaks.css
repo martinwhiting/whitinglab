@@ -15,6 +15,10 @@
   background: #f3f8fb;
 }
 
+.section h2 {
+  font-size: clamp(1.26rem, 2.4vw, 2.01rem);
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: minmax(0, .88fr) minmax(420px, 1.12fr);
