@@ -7,9 +7,11 @@
     #f3f8fb 100%
   );
   padding-top: 3.25rem;
+  padding-bottom: .75rem;
 }
 
 .themes-section {
+  padding-top: 2.75rem;
   background: #f3f8fb;
 }
 
