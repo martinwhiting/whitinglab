@@ -14,3 +14,13 @@ details.year-group .publication-items{padding:0 0 .5rem}
 .chapter-items{margin-top:1.5rem}
 .archive-card .publication-item{padding-bottom:1.2rem;margin-bottom:1.2rem}
 @media(max-width:560px){.publication-item{grid-template-columns:2.25rem 1fr}}
+
+.other-outputs{padding-top:0}
+.output-group{border-bottom:1px solid var(--line)}
+.output-group summary{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.2rem 0;cursor:pointer;list-style:none}
+.output-group summary::-webkit-details-marker{display:none}
+.output-group summary span{color:var(--navy);font-weight:800}
+.output-group summary small{color:var(--muted)}
+.output-group summary::after{content:"+";color:var(--red);font-size:1.35rem;font-weight:700}
+.output-group[open] summary::after{content:"–"}
+.output-group .publication-items{padding:.25rem 0 1rem}
