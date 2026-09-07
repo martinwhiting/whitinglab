@@ -58,6 +58,7 @@
 .animal-showcase { background: linear-gradient(180deg, #f5f8fb 0%, #fff 100%); overflow: hidden; }
 .showcase-heading { display: flex; justify-content: space-between; gap: 2rem; align-items: end; margin-bottom: 2rem; }
 .showcase-heading h2 { margin-bottom: 0; }
+.gallery-page .showcase-heading h1 { margin: 0; color: var(--blue); font-size: clamp(2.1rem, 4vw, 3.35rem); line-height: 1.08; }
 .showcase-heading p { max-width: 520px; margin: 0; color: #52677b; }
 .animal-slider { outline: none; }
 .animal-slider:focus-visible { box-shadow: 0 0 0 3px rgba(30, 105, 164, .3); }
