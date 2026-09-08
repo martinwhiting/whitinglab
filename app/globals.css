@@ -22,7 +22,7 @@
 .people-section{scroll-margin-top:1rem;padding-block:3.5rem;border-top:1px solid var(--line)}
 .people-section:first-child{border-top:5px solid var(--blue)}
 .people-section-layout{display:grid;grid-template-columns:minmax(240px,.8fr) 1.2fr;gap:4rem;align-items:start}
-.people-section-layout h2{margin:0;color:var(--blue);font-size:clamp(1.5rem,3vw,2.25rem)}
+.people-section-layout h2{margin:0;color:var(--blue);font-size:clamp(1.275rem,2.55vw,1.9125rem)}
 .people-section-layout>p,.people-section-layout>div>p:first-child{margin-top:0;font-size:1.08rem}
 .people-name-list{border-top:1px solid var(--line)}
 .people-name-list p{margin:0;padding:1rem 0;border-bottom:1px solid var(--line);color:var(--ink);font-size:1.12rem;font-weight:750}
