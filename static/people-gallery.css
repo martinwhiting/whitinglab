@@ -1,6 +1,6 @@
 .page-intro{padding:6rem 0 2rem}
 .page-intro h1{max-width:900px;margin:0 0 1.4rem;color:var(--blue);font:clamp(3.3rem,7vw,6rem)/1.02 Georgia,"Times New Roman",serif}
-.people-page .page-intro h1{font-size:clamp(1.32rem,2.8vw,2.4rem);letter-spacing:-.02em}
+.people-page .page-intro h1{font-size:clamp(1.32rem,2.8vw,2.4rem);font-weight:700;letter-spacing:-.02em}
 .page-lead{max-width:48rem;margin:0;font-size:1.25rem}
 .people-index{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;padding:1.5rem 0 2rem}
 .people-index a{display:flex;align-items:center;gap:.8rem;min-height:64px;padding:.9rem 1rem;border:1px solid var(--line);border-radius:.7rem;color:var(--navy);font-weight:750}
