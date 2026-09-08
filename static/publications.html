@@ -77,7 +77,11 @@
     const count = group.querySelectorAll('.publication-item').length;
     if (year) addButton(year, year, count);
   });
-  filters.append(search.closest('.publication-search'));
+  const finalRow = document.createElement('div');
+  finalRow.className = 'year-filter-final-row';
+  [...filters.querySelectorAll('.year-filter')].slice(-4).forEach(button => finalRow.append(button));
+  finalRow.append(search.closest('.publication-search'));
+  filters.append(finalRow);
 
   const applyFilters = () => {
     const query = search.value.trim().toLowerCase();
