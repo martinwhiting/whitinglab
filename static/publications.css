@@ -50,3 +50,6 @@ details.year-group .publication-items{padding:0 0 .5rem}
 
 .year-filter-final-row{display:flex;flex:0 0 100%;align-items:center;gap:.55rem}
 @media(max-width:850px){.year-filter-final-row{flex-wrap:wrap}.year-filter-final-row .publication-search{flex:1 1 100%}}
+
+details.year-group.filtered-year>summary{display:none}
+details.year-group.filtered-year[open]{padding-top:.75rem}
