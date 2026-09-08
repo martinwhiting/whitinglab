@@ -14,7 +14,7 @@
 
 /* People and gallery */
 .people-index{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;padding-block:1.5rem 2rem}
-.people-page .page-intro h1{font-size:clamp(1.32rem,2.8vw,2.4rem);letter-spacing:-.02em}
+.people-page .page-intro h1{font-size:clamp(1.32rem,2.8vw,2.4rem);font-weight:700;letter-spacing:-.02em}
 .people-index a{display:flex;align-items:center;gap:.8rem;min-height:64px;padding:.9rem 1rem;border:1px solid var(--line);border-radius:.7rem;color:var(--ink);font-weight:750}
 .people-index a:hover,.people-index a:focus-visible{border-color:var(--orange);color:var(--orange)}
 .people-index span{color:var(--muted);font-family:Georgia,"Times New Roman",serif;font-size:.82rem}
