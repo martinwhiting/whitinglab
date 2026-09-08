@@ -53,3 +53,8 @@ details.year-group .publication-items{padding:0 0 .5rem}
 
 details.year-group.filtered-year>summary{display:none}
 details.year-group.filtered-year[open]{padding-top:.75rem}
+
+.publication-links{grid-column:2;display:flex;flex-wrap:wrap;gap:1rem;margin-top:.65rem}
+.publication-links a{margin:0;color:var(--red);font-size:.86rem;font-weight:800}
+.publication-links a:nth-child(2){color:#52634a}
+.publication-links a:hover{text-decoration:underline}
