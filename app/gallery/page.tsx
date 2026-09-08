@@ -1,0 +1,5 @@
+import { PageIntro, SiteFooter, SiteHeader } from "../site-shell";
+
+export default function Gallery() {
+  return <><SiteHeader/><main><PageIntro kicker="Gallery" title="Visitors and life in the lab"><p>Group photos, visiting researchers and moments from fieldwork and lab life.</p></PageIntro><section className="section page-shell gallery-grid"><figure className="gallery-card gallery-card-wide"><img src="/images/IMG_1812-scaled.jpg" alt="Members of the Lizard Lab in their former lab space" width="2560" height="650"/><figcaption>Members of the lab in our former lab “house”.</figcaption></figure><figure className="gallery-card"><img src="/images/field_montage_karidan2-2048x1140.jpg" alt="Lizard Lab field research in arid environments" width="2048" height="1140"/><figcaption>Field research with the Lizard Lab.</figcaption></figure><figure className="gallery-card"><img src="/images/Phrynocephalus.jpg" alt="Toad-headed agamas displaying in desert habitat" width="960" height="540"/><figcaption>Toad-headed agamas in desert habitat.</figcaption></figure></section></main><SiteFooter/></>;
+}
