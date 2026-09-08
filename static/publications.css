@@ -40,7 +40,7 @@ details.year-group .publication-items{padding:0 0 .5rem}
 .year-filter{min-height:2.45rem;padding:.5rem .9rem;border:1px solid #8d9186;border-radius:999px;color:#40473f;background:transparent;font:600 .9rem/1 Inter,system-ui,sans-serif;cursor:pointer}
 .year-filter:hover{border-color:var(--red);color:var(--red)}
 .year-filter[aria-pressed="true"]{border-color:var(--red);color:#fff;background:var(--red)}
-.publication-search{display:block;width:min(100%,17rem);margin:.85rem 0 0 auto}
+.publication-search{display:block;flex:0 1 17rem;min-width:15rem;margin-left:auto}
 .publication-search input{width:100%;min-height:2.45rem;padding:.55rem 1rem;border:1px solid #8d9186;border-radius:999px;color:var(--text);background:#fff;font:400 .9rem/1.2 Inter,system-ui,sans-serif}
 .publication-search input:focus{outline:3px solid rgb(181 58 34/.18);border-color:var(--red)}
 .publication-no-results{margin:1rem 0 2rem;color:var(--muted)}
