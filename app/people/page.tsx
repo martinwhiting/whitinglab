@@ -51,7 +51,7 @@ export default function People() {
   return (
     <>
       <SiteHeader />
-      <main>
+      <main className="people-page">
         <PageIntro kicker="People" title="The people behind the research">
           <p>The Lizard Lab brings together students, researchers and collaborators interested in behaviour, ecology and evolution.</p>
         </PageIntro>
