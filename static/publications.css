@@ -35,15 +35,15 @@ details.year-group .publication-items{padding:0 0 .5rem}
 @media(max-width:500px){.cover-grid{grid-template-columns:1fr}}
 
 
-.publication-tools{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;margin:1.25rem 0 1rem;padding:1rem;border:1px solid #ded8c8;border-radius:1rem;background:#fffaf0;box-shadow:0 10px 28px rgb(16 47 79/.06)}
-.year-filters{display:flex;flex:1;flex-wrap:wrap;gap:.55rem}
+.publication-tools{display:block;margin:1.25rem 0 1rem;padding:1rem;border:1px solid #ded8c8;border-radius:1rem;background:#fffaf0;box-shadow:0 10px 28px rgb(16 47 79/.06)}
+.year-filters{display:flex;width:100%;flex-wrap:wrap;justify-content:space-between;gap:.55rem}
 .year-filter{min-height:2.45rem;padding:.5rem .9rem;border:1px solid #8d9186;border-radius:999px;color:#40473f;background:transparent;font:600 .9rem/1 Inter,system-ui,sans-serif;cursor:pointer}
 .year-filter:hover{border-color:var(--red);color:var(--red)}
 .year-filter[aria-pressed="true"]{border-color:var(--red);color:#fff;background:var(--red)}
-.publication-search{flex:0 1 17rem}
+.publication-search{display:block;width:min(100%,17rem);margin:.85rem 0 0 auto}
 .publication-search input{width:100%;min-height:2.45rem;padding:.55rem 1rem;border:1px solid #8d9186;border-radius:999px;color:var(--text);background:#fff;font:400 .9rem/1.2 Inter,system-ui,sans-serif}
 .publication-search input:focus{outline:3px solid rgb(181 58 34/.18);border-color:var(--red)}
 .publication-no-results{margin:1rem 0 2rem;color:var(--muted)}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .publication-item[hidden],details.year-group[hidden]{display:none}
-@media(max-width:850px){.publication-tools{align-items:stretch;flex-direction:column}.publication-search{flex-basis:auto;width:100%;max-width:none}}
+@media(max-width:850px){.publication-search{width:100%}}
