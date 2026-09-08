@@ -77,6 +77,7 @@
     const count = group.querySelectorAll('.publication-item').length;
     if (year) addButton(year, year, count);
   });
+  filters.append(search.closest('.publication-search'));
 
   const applyFilters = () => {
     const query = search.value.trim().toLowerCase();
