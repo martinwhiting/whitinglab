@@ -47,3 +47,6 @@ details.year-group .publication-items{padding:0 0 .5rem}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .publication-item[hidden],details.year-group[hidden]{display:none}
 @media(max-width:850px){.publication-search{width:100%}}
+
+.year-filter-final-row{display:flex;flex:0 0 100%;align-items:center;gap:.55rem}
+@media(max-width:850px){.year-filter-final-row{flex-wrap:wrap}.year-filter-final-row .publication-search{flex:1 1 100%}}
