@@ -49,3 +49,5 @@
 .visiting-grid{grid-template-columns:minmax(210px,1fr) minmax(0,1fr)}
 .visiting-grid article{grid-column:1}
 @media(max-width:620px){.profile-with-photo{grid-template-columns:1fr}.profile-with-photo .photo-placeholder{max-width:260px}.visiting-grid{grid-template-columns:1fr}.visiting-grid article{grid-column:auto}}
+
+.past-visitors{background:linear-gradient(90deg,rgba(237,244,248,.7),rgba(255,255,255,0));padding-left:1.25rem;padding-right:1.25rem}
