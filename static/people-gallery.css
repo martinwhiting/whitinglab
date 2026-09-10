@@ -31,3 +31,14 @@
 .gallery-card figcaption{margin-top:.65rem;color:var(--muted);font-size:.86rem}
 @media(max-width:850px){.people-section-layout{grid-template-columns:1fr;gap:2.5rem}.people-index,.alumni-list{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.page-intro{padding:4rem 0 2rem}.people-index,.gallery-grid,.alumni-list,.alumni-years{grid-template-columns:1fr}.gallery-card-wide{grid-column:auto}.gallery-card-wide img{aspect-ratio:16/10}}
+
+/* Current research group */
+.people-page .people-sections{padding-top:0}
+.people-section:first-child{border-top:0}
+.current-student-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.current-student-grid article{border:1px solid var(--line);background:#fff}
+.photo-placeholder{display:grid;place-items:center;aspect-ratio:4/3;background:linear-gradient(135deg,#edf4f8,#dce8f0);color:var(--muted)}
+.photo-placeholder span{font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.current-student-grid h3{margin:0;padding:1rem;color:var(--navy);font-size:1.08rem}
+@media(max-width:850px){.current-student-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.current-student-grid{grid-template-columns:1fr}}
