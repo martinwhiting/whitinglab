@@ -6,7 +6,7 @@
     #f8f9f4 78%,
     #f3f8fb 100%
   );
-  padding-top: 1.75rem;
+  padding-top: .5rem;
   padding-bottom: 0;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .hero-art {
-  margin-top: -3rem;
+  margin-top: -5.5rem;
   margin-bottom: -2.25rem;
 }
 
@@ -115,7 +115,7 @@
   }
 
   .hero-art {
-    margin-top: -.5rem;
+    margin-top: -2rem;
   }
 
   .showcase-heading { display: block; }
