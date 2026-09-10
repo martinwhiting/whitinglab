@@ -6,3 +6,5 @@
 .blog-hero>div>p:not(.eyebrow){max-width:none;width:100%}
 .blog-card .thumb{background:none}
 .blog-card .thumb:empty{display:none}
+
+.blog-hero{padding-bottom:1.35rem}
