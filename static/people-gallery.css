@@ -42,3 +42,10 @@
 .current-student-grid h3{margin:0;padding:1rem;color:var(--navy);font-size:1.08rem}
 @media(max-width:850px){.current-student-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:620px){.current-student-grid{grid-template-columns:1fr}}
+
+.profile-with-photo{display:grid;grid-template-columns:minmax(150px,210px) 1fr;gap:1.5rem;align-items:start}
+.profile-with-photo .photo-placeholder{aspect-ratio:4/5}
+.profile-with-photo p{margin-top:0}
+.visiting-grid{grid-template-columns:minmax(210px,1fr) minmax(0,1fr)}
+.visiting-grid article{grid-column:1}
+@media(max-width:620px){.profile-with-photo{grid-template-columns:1fr}.profile-with-photo .photo-placeholder{max-width:260px}.visiting-grid{grid-template-columns:1fr}.visiting-grid article{grid-column:auto}}
