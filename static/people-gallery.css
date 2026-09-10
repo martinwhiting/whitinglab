@@ -51,3 +51,5 @@
 @media(max-width:620px){.profile-with-photo{grid-template-columns:1fr}.profile-with-photo .photo-placeholder{max-width:260px}.visiting-grid{grid-template-columns:1fr}.visiting-grid article{grid-column:auto}}
 
 .past-visitors{background:linear-gradient(90deg,rgba(237,244,248,.7),rgba(255,255,255,0));padding-left:1.25rem;padding-right:1.25rem}
+
+.person-name-link{display:inline-flex;align-items:center;gap:.45rem}.person-name-link:after{content:'→';color:var(--red);font-family:Inter,system-ui,sans-serif;font-size:.75em;transition:transform .2s}.person-name-link:hover:after{transform:translateX(4px)}
