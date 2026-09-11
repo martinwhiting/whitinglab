@@ -18,3 +18,10 @@
 .martin-visual-grid .research-overview-image img{display:block;width:100%;aspect-ratio:768/579;object-fit:contain}
 .martin-hero .back-link{margin-top:1rem}
 @media(max-width:850px){.martin-visual-grid{grid-template-columns:1fr;gap:1rem}.martin-photo-panel{max-width:620px}.martin-title-block{margin-bottom:1rem}}
+
+/* Align both hero image blocks edge-to-edge */
+.martin-visual-grid{align-items:stretch}
+.martin-photo-panel{height:100%;aspect-ratio:auto}
+.martin-visual-grid .research-overview-image{display:flex}
+.martin-visual-grid .research-overview-image img{height:100%;aspect-ratio:auto;object-fit:contain}
+.research-topic h3{margin-top:0}
