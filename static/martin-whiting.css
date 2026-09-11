@@ -4,3 +4,17 @@
 .martin-hero h1{font-size:clamp(1.5rem,3vw,2.7rem)}
 .research-overview-image{margin:1.25rem 0 0}
 .research-overview-image img{width:100%;height:auto;border:1px solid var(--line);background:#fff}
+
+
+/* Compact profile introduction and aligned image panel */
+.martin-hero{padding:2.4rem 0}
+.martin-title-block{margin:0 0 1.35rem;text-align:left}
+.martin-title-block .eyebrow,.martin-title-block h1,.martin-title-block .role{margin-left:0}
+.martin-title-block .role{margin-bottom:0}
+.martin-visual-grid{display:grid;grid-template-columns:minmax(240px,.62fr) minmax(0,1.38fr);gap:1.25rem;align-items:start}
+.martin-photo-panel{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:.45rem;aspect-ratio:4/3}
+.martin-photo-panel img{width:100%;height:100%;min-height:0;object-fit:cover;border:1px solid var(--line)}
+.martin-visual-grid .research-overview-image{margin:0}
+.martin-visual-grid .research-overview-image img{display:block;width:100%;aspect-ratio:768/579;object-fit:contain}
+.martin-hero .back-link{margin-top:1rem}
+@media(max-width:850px){.martin-visual-grid{grid-template-columns:1fr;gap:1rem}.martin-photo-panel{max-width:620px}.martin-title-block{margin-bottom:1rem}}
