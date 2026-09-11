@@ -25,3 +25,6 @@
 .martin-visual-grid .research-overview-image{display:flex}
 .martin-visual-grid .research-overview-image img{height:100%;aspect-ratio:auto;object-fit:contain}
 .research-topic h3{margin-top:0}
+
+/* Full-width research introduction */
+.research-lead{width:100%;max-width:none}
