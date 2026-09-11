@@ -28,3 +28,8 @@
 
 /* Full-width research introduction */
 .research-lead{width:100%;max-width:none}
+
+/* Show the profile photographs without cropping */
+.martin-photo-panel{grid-template-rows:minmax(0,1fr) minmax(0,1.25fr);background:#fff}
+.martin-photo-panel img{object-fit:contain;background:#fff}
+.martin-photo-panel .wide-cartoon{grid-column:1/-1;width:100%}
