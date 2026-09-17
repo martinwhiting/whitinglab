@@ -36,3 +36,7 @@
 
 /* New landscape Lizard Lab research overview */
 .martin-visual-grid .research-overview-image img{aspect-ratio:16/9;object-fit:contain}
+
+/* Link from the profile to the dedicated research page */
+.research-page-link{display:inline-block;margin-top:1rem;padding:.8rem 1rem;color:#fff;background:var(--red);font-weight:800}
+.research-page-link:hover{background:var(--navy)}
