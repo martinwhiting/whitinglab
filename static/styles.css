@@ -17,3 +17,10 @@
 .footer-acknowledgement p{width:100%;max-width:none;margin:0;color:var(--muted);font-size:.82rem;line-height:1.55}
 @media(max-width:900px){.footer-links-grid{grid-template-columns:1fr 1fr}.footer-contact{grid-column:1/-1}.footer-lab-logo img{width:min(100%,390px)}}
 @media(max-width:620px){.footer-links-grid{grid-template-columns:1fr;gap:2.25rem}.footer-contact{grid-column:auto}.footer-link-list{gap:.7rem}.footer-link-list a{grid-template-columns:46px 1fr}.footer-link-list img{width:42px;height:42px}.footer-link-list .wide-icon,.footer-link-list .mq-footer-icon{width:50px}}
+
+/* Normalise footer icon sizing */
+.footer-link-list a{grid-template-columns:64px 1fr}
+.footer-link-list img,.footer-link-list .wide-icon,.footer-link-list .mq-footer-icon{width:56px;height:56px;object-fit:contain}
+.footer-link-list img[src*="footer-orcid"]{object-fit:cover;object-position:center}
+.footer-link-list .mq-footer-icon{object-fit:cover;object-position:left}
+@media(max-width:620px){.footer-link-list a{grid-template-columns:56px 1fr}.footer-link-list img,.footer-link-list .wide-icon,.footer-link-list .mq-footer-icon{width:50px;height:50px}}
