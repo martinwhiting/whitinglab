@@ -50,3 +50,10 @@
 @media(max-width:1000px){.footer-mq-brand img{width:min(100%,208px)}}
 @media(max-width:700px){.footer-mq-brand img{width:184px}}
 @media(max-width:620px){.footer-mq-brand img{width:168px}}
+
+
+/* Final footer brand scale and school-name wrapping */
+.footer-mq-brand img{width:min(100%,190px)}
+@media(max-width:1000px){.footer-mq-brand img{width:min(100%,177px)}}
+@media(max-width:700px){.footer-mq-brand img{width:156px}}
+@media(max-width:620px){.footer-mq-brand img{width:143px}}
