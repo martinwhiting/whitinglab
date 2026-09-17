@@ -24,3 +24,13 @@
 .footer-link-list img[src*="footer-orcid"]{object-fit:cover;object-position:center}
 .footer-link-list .mq-footer-icon{object-fit:cover;object-position:left}
 @media(max-width:620px){.footer-link-list a{grid-template-columns:56px 1fr}.footer-link-list img,.footer-link-list .wide-icon,.footer-link-list .mq-footer-icon{width:50px;height:50px}}
+
+
+/* Compact four-column footer */
+.footer-links-grid{grid-template-columns:minmax(245px,1.15fr) minmax(175px,.78fr) minmax(190px,.82fr) minmax(190px,.8fr);gap:1.35rem;margin-left:0;margin-right:auto}
+.footer-link-list .school-name{line-height:1.18}
+.footer-mq-brand{align-self:end;justify-self:end;display:block}
+.footer-mq-brand img{display:block;width:220px;height:auto}
+@media(max-width:1000px){.footer-links-grid{grid-template-columns:1fr 1fr 1fr}.footer-contact{grid-column:1/-1}.footer-mq-brand{grid-column:3;justify-self:end}}
+@media(max-width:700px){.footer-links-grid{grid-template-columns:1fr 1fr}.footer-contact{grid-column:1/-1}.footer-mq-brand{grid-column:1/-1;justify-self:start}.footer-mq-brand img{width:205px}}
+@media(max-width:620px){.footer-links-grid{grid-template-columns:1fr}.footer-mq-brand{grid-column:auto}.footer-mq-brand img{width:190px}}
