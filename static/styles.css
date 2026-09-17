@@ -57,3 +57,10 @@
 @media(max-width:1000px){.footer-mq-brand img{width:min(100%,177px)}}
 @media(max-width:700px){.footer-mq-brand img{width:156px}}
 @media(max-width:620px){.footer-mq-brand img{width:143px}}
+
+
+/* Compact two-column footer icon lists */
+.footer-link-list a{grid-template-columns:56px 1fr;gap:.75rem}
+.footer-link-list img,.footer-link-list .wide-icon,.footer-link-list .mq-footer-icon{width:48px;height:48px;object-fit:contain}
+.footer-link-list .mq-footer-icon{object-fit:contain;object-position:center}
+@media(max-width:620px){.footer-link-list a{grid-template-columns:52px 1fr}.footer-link-list img,.footer-link-list .wide-icon,.footer-link-list .mq-footer-icon{width:44px;height:44px}}
