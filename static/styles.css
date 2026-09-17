@@ -43,3 +43,10 @@
 @media(max-width:1000px){.footer-links-grid{grid-template-columns:1fr 1fr 1fr}.footer-mq-brand{grid-column:3}.footer-mq-brand img{width:min(100%,260px)}}
 @media(max-width:700px){.footer-links-grid{grid-template-columns:1fr 1fr}.footer-mq-brand{grid-column:1/-1}.footer-mq-brand img{width:230px;margin-left:0}}
 @media(max-width:620px){.footer-links-grid{grid-template-columns:1fr}.footer-mq-brand{grid-column:auto}.footer-mq-brand img{width:210px}}
+
+
+/* Refined footer logo scale */
+.footer-mq-brand img{width:min(100%,224px)}
+@media(max-width:1000px){.footer-mq-brand img{width:min(100%,208px)}}
+@media(max-width:700px){.footer-mq-brand img{width:184px}}
+@media(max-width:620px){.footer-mq-brand img{width:168px}}
