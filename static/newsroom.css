@@ -8,3 +8,9 @@
 .blog-card .thumb:empty{display:none}
 
 .blog-hero{padding-bottom:1.35rem}
+
+
+/* Newsroom main heading scale */
+.newsroom-page .newsroom-intro h1{font-size:clamp(1.89rem,3.5vw,3.36rem)}
+.newsroom-page .section-heading h2,
+.newsroom-page .blog-callout h2{font-size:clamp(1.47rem,2.8vw,2.345rem)}
