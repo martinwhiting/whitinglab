@@ -6,7 +6,7 @@
   <meta name="description" content="The Lizard Lab at Macquarie University studies animal communication, cognition and social evolution.">
   <title>The Lizard Lab | Macquarie University</title>
   <link rel="icon" href="./images/lizard-lab-logo.png">
-  <link rel="stylesheet" href="./styles.css?v=recentpub2">
+  <link rel="stylesheet" href="./styles.css?v=recentpub3">
   <link rel="stylesheet" href="./hero-tweaks.css?v=24">
 </head>
 <body>
@@ -58,13 +58,18 @@
       <p class="eyebrow">Latest work</p>
       <h2 id="recent-publications-title">Recent publications</h2>
       <div class="recent-publications-row">
-        <figure><img src="./images/recent-publications/recent-vasotocin.webp" alt="The neural distribution of vasotocin, oxytocin, dopamine and serotonin in two Australian skinks with contrasting social lives"></figure>
-        <figure><img src="./images/recent-publications/recent-prenatal-kin-recognition.webp" alt="The prenatal foundations of kin recognition"></figure>
-        <figure><img src="./images/recent-publications/recent-predator-prey-cognition.webp" alt="Predator–prey interactions as drivers of cognitive evolution"></figure>
-        <figure><img src="./images/recent-publications/recent-numerosity.webp" alt="Can lizards count? Testing numerosity in an Australian skink using spontaneous quantity discrimination"></figure>
+        <figure><button class="publication-enlarge" type="button" aria-label="Enlarge publication image"><img src="./images/recent-publications/recent-vasotocin.webp" alt="The neural distribution of vasotocin, oxytocin, dopamine and serotonin in two Australian skinks with contrasting social lives"></button></figure>
+        <figure><button class="publication-enlarge" type="button" aria-label="Enlarge publication image"><img src="./images/recent-publications/recent-prenatal-kin-recognition.webp" alt="The prenatal foundations of kin recognition"></button></figure>
+        <figure><button class="publication-enlarge" type="button" aria-label="Enlarge publication image"><img src="./images/recent-publications/recent-predator-prey-cognition.webp" alt="Predator–prey interactions as drivers of cognitive evolution"></button></figure>
+        <figure><button class="publication-enlarge" type="button" aria-label="Enlarge publication image"><img src="./images/recent-publications/recent-numerosity.webp" alt="Can lizards count? Testing numerosity in an Australian skink using spontaneous quantity discrimination"></button></figure>
       </div>
     </div>
   </section>
+
+  <dialog class="publication-lightbox" aria-label="Enlarged publication image">
+    <button class="publication-lightbox-close" type="button" aria-label="Close enlarged image">×</button>
+    <img src="" alt="">
+  </dialog>
 
   <section class="section animal-showcase" aria-labelledby="study-animals-title">
     <div class="shell">
@@ -110,5 +115,33 @@
 </main>
 <footer class="site-footer-links"><div class="shell footer-links-grid"><div class="footer-contact"><a class="footer-lab-logo" href="" aria-label="The Lizard Lab home"><img src="images/footer/footer-lizard-lab-logo.png" alt="The Lizard Lab: Behaviour, Ecology, Evolution"></a><address>School of Natural Sciences<br>Macquarie University<br>Sydney, NSW 2109<br>Australia</address><a class="footer-email-address" href="mailto:martin.whiting@mq.edu.au">martin.whiting@mq.edu.au</a></div><nav class="footer-link-list" aria-label="Social media links"><a href="https://www.instagram.com/lizardlab/"><img src="images/footer/footer-instagram.jpg" alt=""><span>lizardlab</span></a><a href="https://www.flickr.com/people/thelizardlab/"><img class="wide-icon" src="images/footer/footer-flickr.png" alt=""><span>thelizardlab</span></a><a href="https://vimeo.com/lizardlab"><img src="images/footer/footer-vimeo.png" alt=""><span>lizardlab</span></a><a href="https://www.youtube.com/channel/UC9161C0Dg9MLFvyMUWncQMg"><img src="images/footer/footer-youtube.png" alt=""><span>@lizard_lab</span></a><a href="https://bsky.app/profile/lizardlab.bsky.social"><img src="images/footer/footer-bluesky.png" alt=""><span>Bluesky</span></a></nav><nav class="footer-link-list" aria-label="Research and contact links"><a href="https://scholar.google.com.au/citations?user=viy_8MgAAAAJ&amp;hl=en&amp;oi=ao"><img src="images/footer/footer-google-scholar.png" alt=""><span>Google Scholar</span></a><a href="https://www.researchgate.net/profile/Martin-Whiting-2"><img src="images/footer/footer-researchgate.png" alt=""><span>ResearchGate</span></a><a href="https://orcid.org/0000-0002-4662-0227"><img src="images/footer/footer-orcid.png" alt=""><span>ORCID</span></a><a href="mailto:martin.whiting@mq.edu.au"><img src="images/footer/footer-email.png" alt=""><span>E-mail</span></a><a href="https://www.mq.edu.au/faculty-of-science-and-engineering/departments-and-schools/school-of-natural-sciences"><img class="mq-footer-icon" src="images/footer/footer-school-natural-sciences.png" alt=""><span class="school-name">Natural Sciences</span></a></nav><a class="footer-mq-brand" href="https://www.mq.edu.au/" aria-label="Macquarie University website"><img src="images/footer/footer-macquarie-brand.png" alt="Macquarie University, Sydney Australia"></a></div><div class="shell footer-acknowledgement"><p>We acknowledge the Wallumattagal clan of the Dharug Nation, the Traditional Custodians of the land on which Macquarie University is situated, and pay our respects to Elders past and present.</p></div></footer>
 <script src="./study-animals.js?v=2"></script>
+<script>
+(() => {
+  const dialog = document.querySelector('.publication-lightbox');
+  const enlargedImage = dialog.querySelector('img');
+  const closeButton = dialog.querySelector('.publication-lightbox-close');
+  let opener = null;
+
+  document.querySelectorAll('.publication-enlarge').forEach(button => {
+    button.addEventListener('click', () => {
+      const image = button.querySelector('img');
+      opener = button;
+      enlargedImage.src = image.src;
+      enlargedImage.alt = image.alt;
+      dialog.showModal();
+    });
+  });
+
+  const close = () => dialog.close();
+  closeButton.addEventListener('click', close);
+  dialog.addEventListener('click', event => {
+    if (event.target === dialog) close();
+  });
+  dialog.addEventListener('close', () => {
+    enlargedImage.src = '';
+    if (opener) opener.focus();
+  });
+})();
+</script>
 </body>
 </html>
