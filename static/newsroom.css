@@ -29,3 +29,5 @@
 .feature-card img[src*="life-in-cold-blood"]{object-fit:contain;background:#111}
 
 .feature-card img[src*="lizard-family"]{object-fit:contain;background:#fff}
+
+.feature-card:has(img[src*="lizard-family"]) .feature-source{position:absolute;top:1.4rem;right:1.4rem;margin:0;color:#111;letter-spacing:0;text-transform:none}
