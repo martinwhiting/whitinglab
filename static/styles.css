@@ -108,7 +108,7 @@ body:has(.publication-lightbox[open]){overflow:hidden}
 /* Homepage collaboration map preview */
 .homepage-network-section{padding:4.25rem 0;background:var(--soft)}
 .homepage-network-section h2{font-size:clamp(1.7rem,3vw,2.5rem)}
-.homepage-network-preview{position:relative;display:block;width:70%;overflow:hidden;margin:1.75rem auto 0;border:1px solid var(--line);background:#fff;box-shadow:0 14px 32px rgb(16 47 79/.08)}
+.homepage-network-preview{position:relative;display:block;width:80.5%;overflow:hidden;margin:1.75rem auto 0;border:1px solid var(--line);background:#fff;box-shadow:0 14px 32px rgb(16 47 79/.08)}
 .homepage-network-preview img{display:block;width:100%;height:auto;transition:transform .25s ease,filter .25s ease}
 .homepage-network-preview span{position:absolute;right:1rem;bottom:1rem;padding:.7rem 1rem;color:#fff;background:linear-gradient(90deg,#b04826,#8f3620);font-weight:800;box-shadow:0 6px 18px rgb(0 0 0/.18)}
 .homepage-network-preview:hover img{transform:scale(1.015);filter:saturate(1.08)}
