@@ -11,16 +11,22 @@
 @media(max-width:850px){.contact-grid{grid-template-columns:1fr}.contact-card{min-height:0}}
 @media(max-width:620px){.contact-section{padding:3.5rem 0 2rem}.contact-card{padding:1.5rem}.contact-card strong,.contact-card address{font-size:1rem}}
 
-.prospective-section,.maps-section{padding:clamp(4rem,7vw,6rem) 0;background:#fff}
+.prospective-section,.student-life-section,.maps-section{padding:clamp(4rem,7vw,6rem) 0;background:#fff}
 .prospective-section{padding-top:2.5rem}
-.prospective-section h2,.maps-section h2{margin:0;color:var(--blue);font-size:clamp(1.2rem,2.4vw,1.95rem);line-height:1.2}
+.prospective-section h2,.student-life-section h2,.maps-section h2{margin:0;color:var(--blue);font-size:clamp(1.2rem,2.4vw,1.95rem);line-height:1.2}
 .section-intro{width:100%;max-width:none;margin:1rem 0 0;color:var(--muted);font-size:1.08rem;line-height:1.7}
 .prospective-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin-top:2rem}
 .prospective-links a{display:grid;gap:.65rem;min-height:150px;padding:1.65rem;border:1px solid var(--line);color:var(--navy);background:var(--soft);text-decoration:none;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
 .prospective-links strong{font-size:1.15rem;line-height:1.35}
 .prospective-links a>span{color:var(--muted);line-height:1.55}
 .prospective-links a:hover,.prospective-links a:focus-visible{border-color:var(--blue);box-shadow:0 10px 24px rgb(16 47 79/.1);transform:translateY(-2px)}
-.prospective-links a:focus-visible,.map-card>a:focus-visible{outline:3px solid var(--red);outline-offset:4px}
+.prospective-links a:focus-visible,.student-life-group a:focus-visible,.map-card>a:focus-visible{outline:3px solid var(--red);outline-offset:4px}
+.student-life-section{background:var(--soft)}
+.student-life-groups{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:2rem}
+.student-life-group{display:flex;flex-direction:column;padding:1.65rem;border:1px solid var(--line);background:#fff;box-shadow:0 8px 20px rgb(16 47 79/.06)}
+.student-life-group h3{margin:0 0 .8rem;color:var(--navy);font-size:1.15rem;line-height:1.35}
+.student-life-group a{padding:.7rem 0;border-top:1px solid var(--line);color:var(--blue);font-weight:750;line-height:1.4;text-decoration:none}
+.student-life-group a:hover{text-decoration:underline;text-underline-offset:.18em}
 .maps-section{background:var(--soft)}
 .maps-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(280px,.75fr);gap:1.25rem;margin-top:2rem;align-items:stretch}
 .map-card{display:flex;flex-direction:column;margin:0;overflow:hidden;border:1px solid var(--line);background:#fff;box-shadow:0 12px 28px rgb(16 47 79/.08)}
@@ -29,5 +35,5 @@
 .map-card figcaption{display:grid;gap:.35rem;padding:1.15rem 1.25rem;border-top:1px solid var(--line)}
 .map-card figcaption strong{color:var(--navy);font-size:1.05rem}
 .map-card figcaption a{width:max-content;max-width:100%;color:var(--blue);font-weight:750}
-@media(max-width:850px){.prospective-links,.maps-grid{grid-template-columns:1fr}.map-card>a{min-height:0}.map-card img{height:auto;max-height:520px}}
-@media(max-width:620px){.prospective-section,.maps-section{padding:3.5rem 0}.prospective-section{padding-top:2rem}.prospective-links a{min-height:0;padding:1.4rem}.map-card figcaption{padding:1rem}}
+@media(max-width:850px){.prospective-links,.student-life-groups,.maps-grid{grid-template-columns:1fr}.map-card>a{min-height:0}.map-card img{height:auto;max-height:520px}}
+@media(max-width:620px){.prospective-section,.student-life-section,.maps-section{padding:3.5rem 0}.prospective-section{padding-top:2rem}.prospective-links a{min-height:0;padding:1.4rem}.student-life-group{padding:1.4rem}.map-card figcaption{padding:1rem}}
