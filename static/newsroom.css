@@ -34,3 +34,5 @@
 
 .feature-card:has(img[src*="life-in-cold-blood"]):after{display:none}
 .feature-card:has(img[src*="life-in-cold-blood"]) .feature-tag,.feature-card:has(img[src*="life-in-cold-blood"]) .feature-source,.feature-card:has(img[src*="life-in-cold-blood"]) h3{display:none}
+
+.feature-card img[src*="bluetongue-shane-black"]{object-position:left center}
