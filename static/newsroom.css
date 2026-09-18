@@ -27,3 +27,5 @@
 @media(max-width:650px){.media-logo-wall{grid-template-columns:repeat(3,minmax(0,1fr));min-height:0;padding:.55rem}.media-logo-tile{min-height:70px}.media-logo-tile img{width:34px;height:34px}}
 
 .feature-card img[src*="life-in-cold-blood"]{object-fit:contain;background:#111}
+
+.feature-card img[src*="lizard-family"]{object-fit:contain;background:#fff}
