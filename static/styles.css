@@ -103,3 +103,15 @@ body:has(.publication-lightbox[open]){overflow:hidden}
 .publication-profile-links a:hover,.publication-profile-links a:focus-visible{border-color:var(--blue);box-shadow:0 8px 20px rgb(16 47 79/.1);transform:translateY(-2px);text-decoration:none}
 @media(max-width:900px){.publication-profile-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.publication-profile-links{grid-template-columns:1fr}.publication-profile-links a{min-height:84px}}
+
+
+/* Homepage collaboration map preview */
+.homepage-network-section{padding:4.25rem 0;background:var(--soft)}
+.homepage-network-section h2{font-size:clamp(1.7rem,3vw,2.5rem)}
+.homepage-network-preview{position:relative;display:block;overflow:hidden;margin-top:1.75rem;border:1px solid var(--line);background:#fff;box-shadow:0 14px 32px rgb(16 47 79/.08)}
+.homepage-network-preview img{display:block;width:100%;height:auto;transition:transform .25s ease,filter .25s ease}
+.homepage-network-preview span{position:absolute;right:1rem;bottom:1rem;padding:.7rem 1rem;color:#fff;background:var(--navy);font-weight:800;box-shadow:0 6px 18px rgb(0 0 0/.18)}
+.homepage-network-preview:hover img{transform:scale(1.015);filter:saturate(1.08)}
+.homepage-network-preview:hover span,.homepage-network-preview:focus-visible span{background:var(--red)}
+.homepage-network-preview:focus-visible{outline:3px solid var(--red);outline-offset:4px}
+@media(max-width:620px){.homepage-network-section{padding:3.5rem 0}.homepage-network-preview span{position:static;display:block;text-align:center}}
