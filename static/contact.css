@@ -1,0 +1,12 @@
+.contact-page{background:var(--soft)}
+.contact-section{min-height:520px;padding:clamp(4rem,8vw,7rem) 0 clamp(5rem,9vw,8rem)}
+.contact-section .eyebrow{margin-bottom:1rem}
+.contact-section h1{margin:0;color:var(--blue);font-size:clamp(2.25rem,5vw,4rem);line-height:1.05}
+.contact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:2.25rem}
+.contact-card{display:block;min-height:190px;padding:2rem;color:#fff;background:#1d4a75;text-decoration:none}
+.contact-card:hover,.contact-card:focus-visible{color:#fff;background:#173e65;text-decoration:none}
+.contact-card:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.contact-label{display:block;margin-bottom:.55rem;color:#dce8f2;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.contact-card strong,.contact-card address{display:block;margin:0;color:#fff;font-size:1.05rem;font-style:normal;font-weight:750;line-height:1.65}
+@media(max-width:850px){.contact-grid{grid-template-columns:1fr}.contact-card{min-height:0}}
+@media(max-width:620px){.contact-section{padding:3.5rem 0 4.5rem}.contact-card{padding:1.5rem}.contact-card strong,.contact-card address{font-size:1rem}}
