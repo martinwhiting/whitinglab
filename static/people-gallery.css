@@ -69,6 +69,6 @@
 .martin-profile-photo{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center}
 @media(max-width:620px){.martin-profile-photo{max-width:260px}}
 
-#postdocs .current-student-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:960px;gap:1.5rem}
-#postdocs .person-card-photo{aspect-ratio:1/1;object-fit:contain;object-position:center;background:#f3f6f8}
-@media(max-width:620px){#postdocs .current-student-grid{grid-template-columns:1fr;max-width:520px}}
+#postdocs .current-student-grid{grid-template-columns:repeat(2,minmax(0,210px));max-width:none;gap:1.5rem}
+#postdocs .person-card-photo{width:100%;aspect-ratio:4/5;object-fit:contain;object-position:center;background:#f3f6f8}
+@media(max-width:620px){#postdocs .current-student-grid{grid-template-columns:minmax(0,210px);max-width:210px}}
