@@ -4,3 +4,5 @@
 
 #animal-communication{grid-template-columns:minmax(364px,1.066fr) minmax(0,.934fr);gap:3rem}
 @media(max-width:820px){#animal-communication{grid-template-columns:1fr;gap:1.5rem}}
+
+#animal-communication .theme-visual{padding:0;background:transparent;border-top:0}
