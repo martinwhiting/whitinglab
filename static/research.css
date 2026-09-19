@@ -15,3 +15,4 @@
 .sociality-figure-stack img{width:100%;height:auto;background:transparent}
 .cognition-figure-stack{display:grid;gap:1.25rem;align-items:start}
 .cognition-figure-stack img{width:100%;height:auto;background:transparent}
+.cognition-figure-stack img:last-child{width:85%;justify-self:start}
