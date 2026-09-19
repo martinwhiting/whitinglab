@@ -124,7 +124,7 @@ body:has(.publication-lightbox[open]){overflow:hidden}
 .homepage-video-section{padding:0 0 4.25rem;background:#fff}
 .homepage-video-frame{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border:1px solid var(--line);background:#0f2f50;box-shadow:0 14px 32px rgb(16 47 79/.1)}
 
-/* Use the Publications page's warm opening gradient across all interior pages. */
+/* Use the Publications page's warm opening gradient consistently across all interior pages. */
 main > section:first-child:not(.hero){
   position:relative;
   isolation:isolate;
