@@ -76,3 +76,5 @@
 #visiting-researchers .current-student-grid article{width:210px}
 #visiting-researchers .person-card-photo{display:block;width:210px;aspect-ratio:4/5;object-fit:contain;object-position:center;background:#f3f6f8}
 @media(max-width:620px){#visiting-researchers .current-student-grid article,#visiting-researchers .person-card-photo{width:100%}}
+.gallery-title+.page-lead{max-width:none;white-space:nowrap}
+@media(max-width:850px){.gallery-title+.page-lead{white-space:normal}}
