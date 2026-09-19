@@ -8,3 +8,6 @@
 #animal-communication .theme-visual{padding:0;background:transparent;border-top:0}
 
 #cognition .theme-visual{padding:0;background:transparent;border:0;box-shadow:none}
+#sociality{grid-template-columns:minmax(322px,.943fr) minmax(0,1.057fr);gap:3.5rem}
+#sociality .theme-visual{padding:0;background:transparent;border:0;box-shadow:none}
+@media(max-width:820px){#sociality{grid-template-columns:1fr;gap:1.5rem}}
