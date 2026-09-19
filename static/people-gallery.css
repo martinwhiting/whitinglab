@@ -63,3 +63,5 @@
 .gallery-social-links img{width:2rem;height:2rem;object-fit:contain;border-radius:.3rem}
 .gallery-social-links a:last-child img{width:3.2rem}
 @media(max-width:620px){.gallery-social-links{align-items:flex-start;flex-direction:column}}
+
+.current-student-grid .person-card-photo{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 28%}
