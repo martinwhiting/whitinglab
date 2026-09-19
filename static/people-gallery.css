@@ -65,3 +65,6 @@
 @media(max-width:620px){.gallery-social-links{align-items:flex-start;flex-direction:column}}
 
 .current-student-grid .person-card-photo{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 28%}
+
+.martin-profile-photo{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center}
+@media(max-width:620px){.martin-profile-photo{max-width:260px}}
