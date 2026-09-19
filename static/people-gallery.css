@@ -78,3 +78,8 @@
 @media(max-width:620px){#visiting-researchers .current-student-grid article,#visiting-researchers .person-card-photo{width:100%}}
 .gallery-title+.page-lead{max-width:none;white-space:nowrap}
 @media(max-width:850px){.gallery-title+.page-lead{white-space:normal}}
+#students .current-student-grid{grid-template-columns:repeat(3,minmax(0,210px));max-width:690px}
+#students .current-student-grid article{width:210px}
+#students .person-card-photo{display:block;width:210px;aspect-ratio:4/5;object-fit:contain;object-position:center;background:#f3f6f8}
+@media(max-width:850px){#students .current-student-grid{grid-template-columns:repeat(2,minmax(0,210px))}}
+@media(max-width:620px){#students .current-student-grid{grid-template-columns:minmax(0,210px)}#students .current-student-grid article,#students .person-card-photo{width:100%}}
