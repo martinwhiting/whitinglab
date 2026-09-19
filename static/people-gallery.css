@@ -53,3 +53,6 @@
 .past-visitors{background:linear-gradient(90deg,rgba(237,244,248,.7),rgba(255,255,255,0));padding-left:1.25rem;padding-right:1.25rem}
 
 .person-name-link{display:inline-flex;align-items:center;gap:.45rem}.person-name-link:after{content:'→';color:var(--red);font-family:Inter,system-ui,sans-serif;font-size:.75em;transition:transform .2s}.person-name-link:hover:after{transform:translateX(4px)}
+
+
+.gallery-title{font-size:clamp(1.98rem,4.2vw,3.6rem)!important}
