@@ -13,3 +13,5 @@
 @media(max-width:820px){#sociality{grid-template-columns:1fr;gap:1.5rem}}
 .sociality-figure-stack{display:grid;width:96%;gap:1.25rem;align-items:start;justify-self:start}
 .sociality-figure-stack img{width:100%;height:auto;background:transparent}
+.cognition-figure-stack{display:grid;gap:1.25rem;align-items:start}
+.cognition-figure-stack img{width:100%;height:auto;background:transparent}
