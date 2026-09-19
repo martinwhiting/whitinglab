@@ -56,3 +56,10 @@
 
 
 .gallery-title{font-size:clamp(1.98rem,4.2vw,3.6rem)!important}
+
+.gallery-social-links{display:flex;flex-wrap:wrap;gap:.85rem 1.5rem;align-items:center;padding-top:0;padding-bottom:1.5rem}
+.gallery-social-links a{display:inline-flex;align-items:center;gap:.65rem;color:var(--navy);font-weight:700;text-decoration:none}
+.gallery-social-links a:hover,.gallery-social-links a:focus-visible{color:var(--red);text-decoration:underline;text-underline-offset:.2em}
+.gallery-social-links img{width:2rem;height:2rem;object-fit:contain;border-radius:.3rem}
+.gallery-social-links a:last-child img{width:3.2rem}
+@media(max-width:620px){.gallery-social-links{align-items:flex-start;flex-direction:column}}
