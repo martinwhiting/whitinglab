@@ -16,3 +16,6 @@
 .cognition-figure-stack{display:grid;gap:1.25rem;align-items:start}
 .cognition-figure-stack img{width:100%;height:auto;background:transparent}
 .cognition-figure-stack img:last-child{width:85%;justify-self:start}
+#gene-editing{align-items:start}
+.gene-editing-figure{display:block;width:75%;max-width:320px;height:auto;margin-top:1.25rem;background:transparent}
+@media(max-width:820px){.gene-editing-figure{width:min(75%,320px)}}
