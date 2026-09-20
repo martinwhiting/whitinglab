@@ -149,3 +149,6 @@
 .gallery-page .animal-slide figure,.gallery-study-showcase .animal-slide figure{background:#fff}
 
 .gallery-page .animal-slide::after,.gallery-study-showcase .animal-slide::after{content:"";position:absolute;z-index:4;left:-1px;right:-1px;bottom:-1px;height:1px;background:var(--line);pointer-events:none}
+
+
+.recent-publications-section{background:linear-gradient(to bottom,#f5f8fb 0,#fafcfd 4rem,#fff 8rem,#fff 100%)}
