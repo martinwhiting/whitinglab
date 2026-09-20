@@ -87,3 +87,7 @@
 
 .gallery-page-intro{padding-top:3rem}
 @media(max-width:620px){.gallery-page-intro{padding-top:2.5rem}}
+
+
+.people-page .people-sections{position:relative;isolation:isolate}
+.people-page .people-sections::before{content:"";position:absolute;z-index:-1;top:0;left:50%;width:100vw;height:15rem;transform:translateX(-50%);background:linear-gradient(to bottom,#edf4f8 0,#f3f7fa 5rem,#fafcfd 10rem,#fff 15rem)}
