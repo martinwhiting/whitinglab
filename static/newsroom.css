@@ -43,3 +43,12 @@
 .feature-card h3{max-width:100%;font-size:clamp(1rem,1.35vw,1.16rem);line-height:1.24;overflow-wrap:anywhere;text-wrap:balance}
 .feature-source:empty{display:none}
 @media(max-width:650px){.feature-card>a{padding:1.1rem 1.1rem 1.55rem}.feature-card h3{font-size:1.08rem}}
+
+
+/* Tighter spacing between the main Newsroom sections. */
+.newsroom-page .newsroom-intro{padding:2.25rem 0}
+.newsroom-page .featured-media{padding:2.75rem 0 3rem}
+.newsroom-page .blog-callout{padding:2.5rem 0 1.5rem}
+.newsroom-page .blog-callout+.media-archive{padding:1.5rem 0 3rem}
+.newsroom-page .section-heading{margin-bottom:1.4rem}
+@media(max-width:650px){.newsroom-page .newsroom-intro{padding:1.75rem 0}.newsroom-page .featured-media{padding:2.25rem 0 2.5rem}.newsroom-page .blog-callout{padding:2rem 0 1.25rem}.newsroom-page .blog-callout+.media-archive{padding:1.25rem 0 2.5rem}}
