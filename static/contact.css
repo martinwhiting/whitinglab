@@ -1,5 +1,5 @@
 .contact-page{background:var(--soft)}
-.contact-section{min-height:0;padding:2.5rem 0;background:linear-gradient(to bottom,var(--soft) 0%,var(--soft) 58%,#fff 100%)}
+.contact-section{min-height:0;padding:2.5rem 0;background:linear-gradient(to bottom,var(--soft) 0%,var(--soft) 58%,#dceaf4 100%)}
 .contact-section .eyebrow{margin-bottom:1rem}
 .contact-section h1{margin:0;color:var(--blue);font-size:clamp(1.35rem,3vw,2.4rem);line-height:1.1}
 .contact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:2.25rem}
@@ -12,7 +12,7 @@
 @media(max-width:620px){.contact-section{padding:3.5rem 0 2rem}.contact-card{padding:1.5rem}.contact-card strong,.contact-card address{font-size:1rem}}
 
 .prospective-section,.student-life-section,.maps-section{padding:clamp(4rem,7vw,6rem) 0;background:#fff}
-.prospective-section{padding-top:2.5rem;padding-bottom:2.5rem}
+.prospective-section{padding-top:2.5rem;padding-bottom:2.5rem;background:linear-gradient(to bottom,#dceaf4 0,#fff 4.5rem,#fff 100%)}
 .prospective-section h2,.student-life-section h2,.maps-section h2{margin:0;color:var(--blue);font-size:clamp(1.2rem,2.4vw,1.95rem);line-height:1.2}
 .section-intro{width:100%;max-width:none;margin:1rem 0 0;color:var(--muted);font-size:1.08rem;line-height:1.7}
 .prospective-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin-top:2rem}
