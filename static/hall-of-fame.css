@@ -1,0 +1,12 @@
+.hall-page .page-intro{padding-top:4.5rem;padding-bottom:3.5rem}
+.hall-page .page-intro h1{font-size:clamp(3.4rem,7vw,6rem)}
+.back-link{display:inline-block;margin-top:1.5rem;color:var(--red);font-weight:800}
+.hall-roster{padding-top:1rem}
+.hall-roster .alumni-group:first-child{margin-top:0}
+.hall-roster .alumni-group h2{font-size:clamp(2rem,4vw,3rem)}
+.hall-roster .alumni-years h3{margin:0 0 .65rem;font:1.25rem Georgia,"Times New Roman",serif}
+.hall-photos{background:linear-gradient(180deg,#edf4f8 0,#f7fafc 10rem,#fff 24rem)}
+.hall-photos .visitors-grid{margin-top:2rem}
+.hall-photos .photo-loading{grid-column:1/-1;color:var(--muted)}
+.photo-fallback{margin-top:2rem}
+@media(max-width:620px){.hall-page .page-intro{padding-top:3.5rem;padding-bottom:2.5rem}}
