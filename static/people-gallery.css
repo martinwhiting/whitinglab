@@ -84,3 +84,6 @@
 #students .person-card-photo{display:block;width:210px;aspect-ratio:4/5;object-fit:contain;object-position:center;background:#f3f6f8}
 @media(max-width:850px){#students .current-student-grid{grid-template-columns:repeat(2,minmax(0,210px))}}
 @media(max-width:620px){#students .current-student-grid{grid-template-columns:minmax(0,210px)}#students .current-student-grid article,#students .person-card-photo{width:100%}}
+
+.gallery-page-intro{padding-top:3rem}
+@media(max-width:620px){.gallery-page-intro{padding-top:2.5rem}}
