@@ -137,3 +137,5 @@
 @media (prefers-reduced-motion: reduce) {
   .animal-slide { transition: none; }
 }
+
+.home-study-showcase{background:linear-gradient(to bottom,#fff 0,#fafcfd 4rem,#f5f8fb 8rem,#fff 100%)}
