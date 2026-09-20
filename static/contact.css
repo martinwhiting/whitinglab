@@ -21,7 +21,7 @@
 .prospective-group a{padding:.7rem 0;border-top:1px solid var(--line);color:var(--blue);font-weight:750;line-height:1.4;text-decoration:none}
 .prospective-group a:hover{text-decoration:underline;text-underline-offset:.18em}
 .prospective-group a:focus-visible,.student-life-group a:focus-visible,.map-card>a:focus-visible{outline:3px solid var(--red);outline-offset:4px}
-.student-life-section{padding-top:1.5rem;padding-bottom:2.5rem;background:var(--soft)}
+.student-life-section{padding-top:1.5rem;padding-bottom:2.5rem;background:linear-gradient(to bottom,#fff 0,#fafcfd 4rem,var(--soft) 8rem,var(--soft) 100%)}
 .student-life-groups{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:2rem}
 .student-life-group{display:flex;flex-direction:column;padding:1.65rem;border:1px solid var(--line);background:#fff;box-shadow:0 8px 20px rgb(16 47 79/.06)}
 .student-life-group h3{margin:0 0 .8rem;color:var(--navy);font-size:1.15rem;line-height:1.35}
