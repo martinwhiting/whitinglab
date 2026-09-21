@@ -6,7 +6,8 @@
 .footer-contact{display:grid;justify-items:start;gap:1rem}
 .footer-lab-logo img{display:block;width:min(100%,430px);height:auto}
 .footer-contact address{margin:.5rem 0 0;color:var(--ink);font-style:normal;font-size:1rem;line-height:1.45}
-.footer-email-address{color:var(--navy);font-weight:700}
+.footer-email-address{display:inline-flex;align-items:center;gap:.55rem;color:var(--navy);font-weight:700}
+.footer-email-address img{width:30px;height:auto;object-fit:contain;flex:0 0 auto}
 .footer-link-list{display:grid;gap:.85rem;overflow:visible}
 .footer-link-list a{display:grid;grid-template-columns:54px 1fr;gap:.85rem;align-items:center;min-width:0;color:var(--ink);font-size:1rem;text-decoration:underline;text-underline-offset:.16em}
 .footer-link-list img{width:48px;height:48px;object-fit:contain}
