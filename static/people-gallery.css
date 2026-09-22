@@ -45,7 +45,7 @@
 .photo-placeholder span{font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
 .current-student-grid h3{grid-column:2;margin:.2rem 0 .65rem;padding:0;color:var(--navy);font:700 clamp(1.45rem,2.8vw,2.15rem)/1.1 Georgia,"Times New Roman",serif}
 .current-student-grid article>p{grid-column:2;margin:.35rem 0;line-height:1.7}
-.current-student-grid .person-card-photo{grid-column:1;grid-row:1/span 12;width:220px;height:280px;aspect-ratio:auto;border-radius:.75rem;object-fit:cover;object-position:center 28%;background:#f3f6f8}
+.current-student-grid .person-card-photo{grid-column:1;grid-row:1/span 12;width:220px;height:230px;aspect-ratio:auto;border-radius:.75rem;object-fit:cover;object-position:center 28%;background:#f3f6f8}
 .current-student-grid article::before{grid-column:2;color:var(--red);font-size:.75rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
 #postdocs .current-student-grid article::before{content:"Postdoctoral researcher"}
 #students .current-student-grid article::before{content:"PhD / MRes student"}
