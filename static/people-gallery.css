@@ -35,6 +35,7 @@
 /* Current research group */
 .people-page .people-sections{padding-top:0}
 .people-section:first-child{border-top:0}
+.hall-of-fame .alumni-group{display:none}
 .current-student-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
 .current-student-grid article{border:1px solid var(--line);background:#fff}
 .photo-placeholder{display:grid;place-items:center;aspect-ratio:4/3;background:linear-gradient(135deg,#edf4f8,#dce8f0);color:var(--muted)}
