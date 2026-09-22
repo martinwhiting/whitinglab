@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     button.setAttribute('aria-controls', copyId);
     button.setAttribute('aria-expanded', 'false');
     button.textContent = 'Show more';
+    button.hidden = true;
     card.append(button);
 
     const update = () => {
