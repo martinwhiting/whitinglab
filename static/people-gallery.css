@@ -98,4 +98,4 @@
 .people-page .people-sections{position:relative;isolation:isolate}
 .people-page .page-intro{padding-bottom:3rem}
 .people-page .page-intro::before{background:linear-gradient(180deg,#fffdf7 0%,#fff8e8 100%)}
-.people-page .people-sections::before{content:"";position:absolute;z-index:-1;top:0;left:50%;width:100vw;height:30rem;transform:translateX(-50%);background:linear-gradient(to bottom,#f8fbfd 0,#edf5fa 3rem,#e1eef6 8rem,#d9eaf4 14rem,#e7f2f8 19rem,#f7fafc 24rem,#fff 30rem)}
+.people-page .people-sections::before{content:"";position:absolute;z-index:-1;top:-1px;left:50%;width:100vw;height:30rem;transform:translateX(-50%);background:linear-gradient(to bottom,#eaf3f8 0,#e5f0f7 1.5rem,#deecf5 5rem,#d9eaf4 14rem,#e7f2f8 19rem,#f7fafc 24rem,#fff 30rem)}
