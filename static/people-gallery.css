@@ -2,7 +2,7 @@
 .page-intro h1{max-width:900px;margin:0 0 1.4rem;color:var(--blue);font:clamp(3.3rem,7vw,6rem)/1.02 Georgia,"Times New Roman",serif}
 .people-page .page-intro h1{font-size:clamp(1.701rem,3.465vw,3.024rem);font-weight:700;letter-spacing:-.035em}
 .people-jump-nav{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:2.2rem}
-.people-jump-nav a{padding:.7rem 1rem;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--navy);font-size:.9rem;font-weight:700}
+.people-jump-nav a{position:relative;z-index:1;padding:.7rem 1rem;border:2px solid #c7d7e3;border-radius:999px;background:#fff;color:var(--navy);font-size:.9rem;font-weight:700;box-shadow:0 4px 12px rgba(16,42,67,.08)}
 .people-jump-nav a:hover,.people-jump-nav a:focus-visible{border-color:var(--red);color:var(--red);text-decoration:none}
 .page-lead{max-width:48rem;margin:0;font-size:1.25rem}
 .people-index{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;padding:1.5rem 0 2rem}
@@ -96,4 +96,6 @@
 
 
 .people-page .people-sections{position:relative;isolation:isolate}
-.people-page .people-sections::before{content:"";position:absolute;z-index:-1;top:-4rem;left:50%;width:100vw;height:28rem;transform:translateX(-50%);background:linear-gradient(to bottom,rgba(229,240,247,0) 0,#edf5f9 2rem,#e5f0f7 6rem,#eef5f9 16rem,#f7fafc 22rem,#fff 28rem)}
+.people-page .page-intro{padding-bottom:3rem}
+.people-page .page-intro::before{background:linear-gradient(180deg,#fffdf7 0%,#fff8e8 100%)}
+.people-page .people-sections::before{content:"";position:absolute;z-index:-1;top:0;left:50%;width:100vw;height:24rem;transform:translateX(-50%);background:linear-gradient(to bottom,#fff8e8 0,#edf5f9 3rem,#e5f0f7 6rem,#eef5f9 12rem,#f7fafc 18rem,#fff 24rem)}
