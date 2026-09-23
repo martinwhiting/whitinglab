@@ -36,3 +36,8 @@
 .hall-page .hof-portrait img[alt="Christian Alessandro Perez-Martinez in the field"],
 .hall-page .hof-portrait img[alt="Levi Brown"],
 .hall-page .hof-portrait img[alt="Walter Reisinger"]{height:auto;aspect-ratio:auto;object-fit:contain;object-position:center}
+
+/* Compact Hall of Fame titles and profile names. */
+.hall-page .page-intro h1{font-size:clamp(2.32rem,4.4vw,3.84rem)}
+.profile-section>h2,.volunteer-section h2{font-size:clamp(1.6rem,3.2vw,2.56rem)}
+.hof-profile-copy h3{font-size:clamp(1.044rem,2.016vw,1.548rem)}
