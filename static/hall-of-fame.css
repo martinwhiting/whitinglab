@@ -30,3 +30,9 @@
 .volunteer-card{overflow:hidden;border-radius:1rem;box-shadow:0 12px 30px rgba(16,42,67,.08)}
 @media(max-width:700px){.hof-profile{grid-template-columns:1fr;padding:1rem}.hof-portrait{max-width:none}.hall-page .hof-portrait img{height:auto;aspect-ratio:4/3}}
 .hof-profile-copy h3{font-size:clamp(1.305rem,2.52vw,1.935rem)}
+
+/* Preserve the complete original framing for portraits that were being cropped. */
+.hall-page .hof-portrait img[alt="Pau Carazo"],
+.hall-page .hof-portrait img[alt="Christian Alessandro Perez-Martinez in the field"],
+.hall-page .hof-portrait img[alt="Levi Brown"],
+.hall-page .hof-portrait img[alt="Walter Reisinger"]{height:auto;aspect-ratio:auto;object-fit:contain;object-position:center}
