@@ -1,6 +1,6 @@
 .page-intro{padding:6rem 0 2rem}
 .page-intro h1{max-width:900px;margin:0 0 1.4rem;color:var(--blue);font:clamp(3.3rem,7vw,6rem)/1.02 Georgia,"Times New Roman",serif}
-.people-page .page-intro h1{font-size:clamp(1.89rem,3.85vw,3.36rem);font-weight:700;letter-spacing:-.035em}
+.people-page .page-intro h1{font-size:clamp(1.701rem,3.465vw,3.024rem);font-weight:700;letter-spacing:-.035em}
 .people-jump-nav{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:2.2rem}
 .people-jump-nav a{padding:.7rem 1rem;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--navy);font-size:.9rem;font-weight:700}
 .people-jump-nav a:hover,.people-jump-nav a:focus-visible{border-color:var(--red);color:var(--red);text-decoration:none}
@@ -43,7 +43,7 @@
 .current-student-grid article{display:grid;grid-template-columns:220px minmax(0,1fr);column-gap:2rem;align-content:start;padding:1.4rem;border:1px solid var(--line);border-radius:1rem;background:#fff;box-shadow:0 12px 30px rgba(16,42,67,.08)}
 .photo-placeholder{display:grid;place-items:center;aspect-ratio:4/3;background:linear-gradient(135deg,#edf4f8,#dce8f0);color:var(--muted)}
 .photo-placeholder span{font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
-.current-student-grid h3{grid-column:2;margin:.2rem 0 .65rem;padding:0;color:var(--navy);font:700 clamp(1.45rem,2.8vw,2.15rem)/1.1 Georgia,"Times New Roman",serif}
+.current-student-grid h3{grid-column:2;margin:.2rem 0 .65rem;padding:0;color:var(--navy);font:700 clamp(1.16rem,2.24vw,1.72rem)/1.1 Georgia,"Times New Roman",serif}
 .current-student-grid article>p{grid-column:2;margin:.35rem 0;line-height:1.7}
 .current-student-grid .person-card-photo{grid-column:1;grid-row:1/span 3;width:220px;height:230px;aspect-ratio:auto;border-radius:.75rem;object-fit:cover;object-position:center 28%;background:#f3f6f8}
 .current-student-grid article::before{grid-column:2;color:var(--red);font-size:.75rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
@@ -55,7 +55,7 @@
 .profile-with-photo{display:grid;grid-template-columns:220px 1fr;gap:2rem;align-items:start;padding:1.4rem;border:1px solid var(--line);border-radius:1rem;background:#fff;box-shadow:0 12px 30px rgba(16,42,67,.08)}
 .profile-with-photo .photo-placeholder{aspect-ratio:4/5}
 .profile-with-photo p{margin-top:0}
-.profile-with-photo h3{margin:.2rem 0 .65rem;color:var(--navy);font:700 clamp(1.65rem,3vw,2.35rem)/1.1 Georgia,"Times New Roman",serif}
+.profile-with-photo h3{margin:.2rem 0 .65rem;color:var(--navy);font:700 clamp(1.32rem,2.4vw,1.88rem)/1.1 Georgia,"Times New Roman",serif}
 .profile-kicker{margin-bottom:.35rem;color:var(--red);font-size:.75rem!important;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
 .visiting-grid{grid-template-columns:1fr;max-width:none}
 .visiting-grid article{grid-column:auto;width:auto}
