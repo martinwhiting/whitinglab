@@ -70,10 +70,10 @@
 
 .gallery-social-links{position:relative;isolation:isolate;display:flex;flex-wrap:wrap;justify-content:flex-start;gap:.85rem 1.5rem;align-items:center;min-height:84px;padding-block:1rem}
 .gallery-social-links::before{content:"";position:absolute;z-index:-1;top:0;bottom:0;left:50%;width:100vw;transform:translateX(-50%);background:linear-gradient(to bottom,#f3f8fb 0%,#f5f8fb 100%)}
-.gallery-social-links a{display:inline-flex;align-items:center;gap:.65rem;color:var(--navy);font-size:18px;font-weight:700;text-decoration:none}
+.gallery-social-links a{display:inline-flex;align-items:center;gap:.65rem;color:var(--navy);font-size:22.5px;font-weight:700;text-decoration:none}
 .gallery-social-links a:hover,.gallery-social-links a:focus-visible{color:var(--red);text-decoration:underline;text-underline-offset:.2em}
-.gallery-social-links img{width:2rem;height:2rem;object-fit:contain;border-radius:.3rem}
-.gallery-social-links a:last-child img{width:3.2rem}
+.gallery-social-links img{width:2.5rem;height:2.5rem;object-fit:contain;border-radius:.3rem}
+.gallery-social-links a:last-child img{width:4rem}
 @media(max-width:620px){.gallery-social-links{align-items:flex-start;flex-direction:column}}
 
 .current-student-grid .person-card-photo{display:block}
