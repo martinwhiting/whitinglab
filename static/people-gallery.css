@@ -99,3 +99,15 @@
 .people-page .page-intro{padding-bottom:3rem}
 .people-page .page-intro::before{background:linear-gradient(180deg,#fffdf7 0%,#fff8e8 100%)}
 .people-page .people-sections::before{content:"";position:absolute;z-index:-1;top:-1px;left:50%;width:100vw;height:30rem;transform:translateX(-50%);background:linear-gradient(to bottom,#eaf3f8 0,#e5f0f7 1.5rem,#deecf5 5rem,#d9eaf4 14rem,#e7f2f8 19rem,#f7fafc 24rem,#fff 30rem)}
+
+
+/* Keep the compact link sections at the foot of the People page together. */
+.people-page #hall-of-fame,
+.people-page #undergrads,
+.people-page #collaborative-network,
+.people-page #past-visitors{padding:2.7rem 0}
+.people-page #hall-of-fame .people-section-layout,
+.people-page #undergrads .people-section-layout,
+.people-page #collaborative-network .people-section-layout,
+.people-page #past-visitors .people-section-layout{gap:1rem}
+@media(max-width:620px){.people-page #hall-of-fame,.people-page #undergrads,.people-page #collaborative-network,.people-page #past-visitors{padding:2.2rem 0}}
