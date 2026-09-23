@@ -115,3 +115,19 @@
 .gallery-filter-archive .visitors-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));columns:auto;align-items:start}
 @media(max-width:900px){.gallery-filter-archive .visitors-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:620px){.gallery-filter-archive .visitors-grid{grid-template-columns:1fr}}
+
+.gallery-filter-card>a{display:block;cursor:zoom-in}
+.gallery-lightbox{width:100vw;max-width:none;height:100vh;max-height:none;margin:0;padding:2.5rem 5rem;border:0;background:transparent;color:#fff;overflow:hidden}
+.gallery-lightbox::backdrop{background:rgb(5 22 38/.92)}
+.gallery-lightbox figure{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;margin:0}
+.gallery-lightbox img{display:block;max-width:100%;max-height:calc(100vh - 9rem);width:auto;height:auto;object-fit:contain;box-shadow:0 18px 55px rgb(0 0 0/.45)}
+.gallery-lightbox figcaption{max-width:min(900px,90vw);padding:.8rem 1rem;text-align:center;color:#fff;font-size:.95rem;line-height:1.45}
+.gallery-lightbox figcaption span{display:none}
+.gallery-lightbox figcaption strong{display:block;color:#fff;font-size:1rem}
+.gallery-lightbox-close,.gallery-lightbox-nav{position:fixed;z-index:2;border:0;color:#fff;background:rgb(8 42 70/.78);cursor:pointer;box-shadow:0 4px 18px rgb(0 0 0/.25)}
+.gallery-lightbox-close{top:1rem;right:1rem;width:2.8rem;height:2.8rem;border-radius:50%;font-size:2rem;line-height:1}
+.gallery-lightbox-nav{top:50%;width:3.4rem;height:4.8rem;border-radius:.5rem;font-size:3.2rem;line-height:1;transform:translateY(-50%)}
+.gallery-lightbox-prev{left:1rem}.gallery-lightbox-next{right:1rem}
+.gallery-lightbox-close:hover,.gallery-lightbox-close:focus-visible,.gallery-lightbox-nav:hover,.gallery-lightbox-nav:focus-visible{background:var(--red);outline:2px solid #fff;outline-offset:2px}
+body:has(.gallery-lightbox[open]){overflow:hidden}
+@media(max-width:620px){.gallery-lightbox{padding:3.5rem .75rem 5rem}.gallery-lightbox img{max-height:calc(100vh - 10rem)}.gallery-lightbox-nav{top:auto;bottom:.75rem;width:3rem;height:3rem;border-radius:50%;font-size:2.5rem;transform:none}.gallery-lightbox-prev{left:calc(50% - 3.75rem)}.gallery-lightbox-next{right:calc(50% - 3.75rem)}}
