@@ -1,7 +1,7 @@
 .page-intro{padding:6rem 0 2rem}
 .page-intro h1{max-width:900px;margin:0 0 1.4rem;color:var(--blue);font:clamp(3.3rem,7vw,6rem)/1.02 Georgia,"Times New Roman",serif}
 .people-page .page-intro h1{font-size:clamp(1.89rem,3.85vw,3.36rem);font-weight:700;letter-spacing:-.035em}
-.people-jump-nav{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.4rem}
+.people-jump-nav{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:2.2rem}
 .people-jump-nav a{padding:.7rem 1rem;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--navy);font-size:.9rem;font-weight:700}
 .people-jump-nav a:hover,.people-jump-nav a:focus-visible{border-color:var(--red);color:var(--red);text-decoration:none}
 .page-lead{max-width:48rem;margin:0;font-size:1.25rem}
@@ -61,7 +61,7 @@
 .visiting-grid article{grid-column:auto;width:auto}
 @media(max-width:700px){.profile-with-photo{grid-template-columns:1fr;padding:1rem}.profile-with-photo .photo-placeholder{max-width:none}}
 
-.past-visitors{background:linear-gradient(90deg,rgba(237,244,248,.7),rgba(255,255,255,0));padding-left:1.25rem;padding-right:1.25rem}
+.past-visitors{background:none;padding-left:0;padding-right:0}
 
 .person-name-link{display:inline-flex;align-items:center;gap:.45rem}.person-name-link:after{content:'→';color:var(--red);font-family:Inter,system-ui,sans-serif;font-size:.75em;transition:transform .2s}.person-name-link:hover:after{transform:translateX(4px)}
 
