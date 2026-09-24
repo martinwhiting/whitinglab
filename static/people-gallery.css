@@ -97,7 +97,8 @@
 
 .people-page{background:linear-gradient(180deg,#fffdf7 0,#fff8e8 16rem,#f5f5ef 21rem,#eaf2f5 27rem,#d9eaf4 34rem,#d9eaf4 41rem,#e8f2f8 49rem,#fff 59rem) top/100% 59rem no-repeat}
 .people-page .people-sections{position:relative;isolation:isolate}
-.people-page .page-intro{padding-bottom:3rem}
+.people-page .page-intro{padding-bottom:1.5rem}
+.people-page .people-section:first-child{padding-top:2rem}
 .people-page .page-intro::before,.people-page .people-sections::before{display:none}
 
 /* Keep the compact link sections at the foot of the People page together. */
