@@ -7,7 +7,7 @@
 <title>Publications | The Lizard Lab</title>
 <link href="../images/lizard-lab-logo.png" rel="icon"/>
 <link href="../styles.css?v=warm1" rel="stylesheet"/>
-<link href="../publications.css?v=1" rel="stylesheet"/>
+<link href="../publications.css?v=2" rel="stylesheet"/>
 </head>
 <body>
 <header class="site-header">
@@ -79,7 +79,7 @@
   });
   const finalRow = document.createElement('div');
   finalRow.className = 'year-filter-final-row';
-  [...filters.querySelectorAll('.year-filter')].slice(-4).forEach(button => finalRow.append(button));
+  [...filters.querySelectorAll('.year-filter')].slice(-11).forEach(button => finalRow.append(button));
   finalRow.append(search.closest('.publication-search'));
   filters.append(finalRow);
 
