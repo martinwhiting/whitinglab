@@ -7,7 +7,7 @@
 <title>Publications | The Lizard Lab</title>
 <link href="../images/lizard-lab-logo.png" rel="icon"/>
 <link href="../styles.css?v=warm1" rel="stylesheet"/>
-<link href="../publications.css?v=2" rel="stylesheet"/>
+<link href="../publications.css?v=3" rel="stylesheet"/>
 </head>
 <body>
 <header class="site-header">
@@ -72,16 +72,13 @@
   };
 
   addButton('All years', 'all');
-  groups.forEach(group => {
-    const year = group.querySelector('summary span')?.textContent.trim();
-    const count = group.querySelectorAll('.publication-item').length;
-    if (year) addButton(year, year, count);
-  });
-  const finalRow = document.createElement('div');
-  finalRow.className = 'year-filter-final-row';
-  [...filters.querySelectorAll('.year-filter')].slice(-11).forEach(button => finalRow.append(button));
-  finalRow.append(search.closest('.publication-search'));
-  filters.append(finalRow);
+  const years = groups
+    .map(group => Number(group.querySelector('summary span')?.textContent.trim()))
+    .filter(Number.isFinite);
+  for (let year = Math.max(...years); year >= Math.min(...years); year -= 1) {
+    addButton(String(year), String(year));
+  }
+  filters.append(search.closest('.publication-search'));
 
   const applyFilters = () => {
     const query = search.value.trim().toLowerCase();
