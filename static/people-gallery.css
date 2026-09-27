@@ -66,7 +66,7 @@
 .person-name-link{display:inline-flex;align-items:center;gap:.45rem}.person-name-link:after{content:'→';color:var(--red);font-family:Inter,system-ui,sans-serif;font-size:.75em;transition:transform .2s}.person-name-link:hover:after{transform:translateX(4px)}
 
 
-.gallery-title{font-size:clamp(1.98rem,4.2vw,3.6rem)!important}
+.gallery-title{max-width:none!important;width:100%;font-size:clamp(1.98rem,4.2vw,3.6rem)!important}
 
 .gallery-social-links{position:relative;isolation:isolate;display:flex;flex-wrap:wrap;justify-content:flex-start;gap:.85rem 1.5rem;align-items:center;min-height:84px;padding-block:1rem}
 .gallery-social-links::before{content:"";position:absolute;z-index:-1;top:0;bottom:-1px;left:50%;width:100vw;transform:translateX(-50%);background:linear-gradient(to bottom,#f3f8fb 0%,#eef5f9 62%,var(--soft) 100%)}
