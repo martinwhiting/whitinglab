@@ -73,7 +73,7 @@
 .gallery-social-links a{display:inline-flex;align-items:center;gap:.65rem;color:var(--navy);font-size:22.5px;font-weight:700;text-decoration:none}
 .gallery-social-links a:hover,.gallery-social-links a:focus-visible{color:var(--red);text-decoration:underline;text-underline-offset:.2em}
 .gallery-social-links img{width:2.5rem;height:2.5rem;object-fit:contain;border-radius:.3rem}
-.gallery-social-links a:last-child img{width:4rem}
+.gallery-social-links a[href*="flickr.com"] img{width:4rem}
 @media(max-width:620px){.gallery-social-links{align-items:flex-start;flex-direction:column}}
 
 .current-student-grid .person-card-photo{display:block}
