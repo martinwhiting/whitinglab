@@ -1,0 +1,3 @@
+/* Match the Publications page main heading. */
+h1.standard-page-heading{font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.5rem,3vw,2.55rem);font-weight:700;line-height:1;letter-spacing:normal}
+.people-page .page-intro h1.standard-page-heading{font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.5rem,3vw,2.55rem);font-weight:700;line-height:1;letter-spacing:normal}
