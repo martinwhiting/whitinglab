@@ -6,5 +6,6 @@ h1.standard-page-heading{font-family:Georgia,"Times New Roman",serif;font-size:c
 
 .gallery-page-intro h1.gallery-title.standard-page-heading{font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.5rem,3vw,2.55rem)!important;font-weight:700;line-height:1;letter-spacing:normal}
 
-/* Keep the long Gallery title on one line on desktop. */
-@media(min-width:1000px){.gallery-page-intro h1.gallery-title.standard-page-heading{font-size:clamp(1.5rem,2.65vw,2.2rem)!important;white-space:nowrap;letter-spacing:-.025em}}
+
+/* Use the same main heading typography and colour on every standard page. */
+h1.standard-page-heading,.people-page .page-intro h1.standard-page-heading,.gallery-page-intro h1.gallery-title.standard-page-heading,.newsroom-page .newsroom-intro h1.standard-page-heading{color:var(--navy);font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.5rem,3vw,2.55rem)!important;font-weight:700;line-height:1;letter-spacing:normal;white-space:normal}
