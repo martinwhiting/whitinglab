@@ -1,7 +1,7 @@
 .contact-page{background:var(--soft)}
 .contact-section{min-height:0;padding:2.5rem 0;background:linear-gradient(to bottom,#f5f8fa 0%,#f5f8fa 55%,#f7fafc 100%)}
 .contact-section .eyebrow{margin-bottom:1rem}
-.contact-section h1{margin:0;color:var(--blue);font-size:clamp(1.35rem,3vw,2.4rem);line-height:1.1}
+.contact-section h1{margin:0;color:var(--blue);font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.5rem,3vw,2.55rem);font-weight:700;line-height:1;letter-spacing:normal}
 .contact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:2.25rem}
 .contact-card{display:block;min-height:190px;padding:2rem;color:#fff;background:#1d4a75;text-decoration:none}
 .contact-card:hover,.contact-card:focus-visible{color:#fff;background:#173e65;text-decoration:none}
